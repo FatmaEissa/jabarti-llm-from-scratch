@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Model checkpoints and large files
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Experiment outputs
+runs/
+logs/
